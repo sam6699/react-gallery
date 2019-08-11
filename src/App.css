@@ -1,0 +1,86 @@
+#grid {
+display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px ;
+  grid-row-gap: 3px;
+  grid-column-gap: 3px;
+  resize: horizontal;
+
+}
+#order-table{
+  border-collapse: collapse;
+  margin-right: 5px;
+  resize: horizontal;
+  overflow: auto;
+
+}
+td ,th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+
+
+}
+tr:hover{
+  background-color: #f5f5f5;
+
+}
+
+#container{
+  display: flex;
+  flex: 1;
+  margin: 5px 5px 5px 5px ;
+
+}
+#tabs{
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+.product{
+  width: 100px;
+  height: 100px;
+  resize: both;
+}
+.tab{
+  margin-left: 3px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  width: 50px;
+  height: 50px;
+}
+.banner{
+  width:450px;
+  height: 450px;
+  margin-left: 3px;
+  resize: both;
+}
+
+.add-button{
+  background-color: #3969af; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+.remove-button{
+  background-color: #af2e2b; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
