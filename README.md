@@ -6,7 +6,7 @@ Simple gallery based on Reactjs.Pictures loaded from unsplash.com
 1.yarn start.
 
 2.npm start
-
+  
 
 ## Available Scripts
  
